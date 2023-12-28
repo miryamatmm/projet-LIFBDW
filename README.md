@@ -42,14 +42,6 @@ Pour plus de détails, vous pouvez consulter le schéma Entité/Association ains
 - Liste des comités régionaux de la Fédération Française de Danse, triée par ordre alphabétique inverse.
 - Top 5 des écoles françaises avec le plus grand nombre d'adhérents en 2022 (nom, ville, nombre d'adhérents).
 
-### Fonctionnalités de base
-
-- Affichage d'un résultat simple d'une requête.
-- Affichage d'un résultat tabulaire d'une requête.
-- Ajout d'un élément dans la base.
-- Modification d'un n-uplet en base.
-- Suppression d'un n-uplet en base.
-
 ### Tableau de bord d'une école de danse
 
 #### Informations générales :
@@ -57,10 +49,13 @@ Pour plus de détails, vous pouvez consulter le schéma Entité/Association ains
 - Liste des employés.
 - Nombre d'adhérents pour l'année en cours.
 - Liste des cours proposés dans l'école.
-- Nombre d'adhérents ayant participé à une compétition.
 
-#### Page de gestion associées :
-- Gestion des cours
+#### Gestion des cours
+Sur cette page l'utilisateur peut :
+
+- Sélectionner un cours existant
+-  Visualiser les informations sur le cours, telles que définies actuellement, — modifier les valeurs concernant le cours,
+-  Ajouter un nouveau cours.
 
 ### Tableau de bord d'une fédération
 
@@ -70,9 +65,8 @@ Pour plus de détails, vous pouvez consulter le schéma Entité/Association ains
 - Nombre de membres de la fédération.
 - Liste des compétitions organisées par la fédération.
 - Nombre d'adhérents ayant participé à une compétition.
-#### Pages de gestion associées
 
-##### Gestion des informations des comités
+#### Gestion des informations des comités
 
 Sur cette page, l'utilisateur peut :
 
@@ -81,7 +75,7 @@ Sur cette page, l'utilisateur peut :
 - Ajouter un nouveau comité.
 - Rattacher un comité à la fédération.
 
-##### Gestion des compétitions
+#### Gestion des compétitions
 
 Sur cette page, l'utilisateur peut :
 
